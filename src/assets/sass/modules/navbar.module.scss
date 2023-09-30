@@ -38,9 +38,10 @@
 
         a.links {
             color: var(--green);
+            animation: zoomIn 3s 0s;
     
             &:hover {
-                animation: zoomOut 3s .1s;
+                animation: zoomOut 3s 0s;
             }
     }
 
