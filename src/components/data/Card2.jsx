@@ -1,6 +1,6 @@
 import styles from '../../assets/sass/modules/portfolio.module.scss'
 
-export default function Card(props){
+export default function Card2(props){
 
     return (
         <div className={styles.card}>

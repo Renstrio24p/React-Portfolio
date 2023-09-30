@@ -9,7 +9,7 @@ export default function Navbar(){
                 <div className={styles['logo-box']}>
                 <img src="logo.png" alt="logo" className={styles.logo} />
                 </div>
-                <p>Architecture Matters</p>
+                <p>Architectural Photography</p>
             </div>
             <ul className="nav-links">
                 <Link className={styles.links} to={'/'}>Home</Link>

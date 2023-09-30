@@ -1,0 +1,17 @@
+
+@mixin Tablet {
+    
+    .portfoio {
+        div.home {
+            h2 {
+                font-size: 50px;
+            }
+    
+            div.top {
+                width: 240px;
+                height: 240px;
+            }
+        }
+    }
+
+}
