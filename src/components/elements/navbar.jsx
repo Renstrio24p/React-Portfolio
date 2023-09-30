@@ -12,7 +12,7 @@ export default function Navbar(){
                 <p>Architecture Matters</p>
             </div>
             <ul className="nav-links">
-                <Link className={styles.links} to={'/home'}>Home</Link>
+                <Link className={styles.links} to={'/'}>Home</Link>
                 <Link className={styles.links} to={'/portfolio'}>Portfolio</Link>
             </ul>
         </nav>
