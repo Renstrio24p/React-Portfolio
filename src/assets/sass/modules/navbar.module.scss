@@ -1,0 +1,48 @@
+@import '../index.scss';
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    align-items: center;
+    animation: slideInDown 2s .1s;
+    position: fixed;
+    z-index: 2;
+    div.logo-div {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        color: var(--green);
+
+        div.logo-box {
+            width: 30px;
+            height: 30px;
+            position: relative;
+            rotate: 40deg;
+            img.logo {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                object-fit: cover;
+            }
+        }
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+
+        a.links {
+            color: var(--green);
+    
+            &:hover {
+                animation: zoomOut 3s .1s;
+            }
+    }
+
+    }
+}
