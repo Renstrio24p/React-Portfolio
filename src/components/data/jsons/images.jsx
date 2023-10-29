@@ -455,4 +455,36 @@ export default [
         title: "image sample",
         description:"this is just a sample"
     },
+    {
+        id :58,
+        category: "project",
+        url:"project1.webp",
+        alt:"image1",
+        title: "image sample",
+        description:"this is just a sample"
+    },
+    {
+        id :59,
+        category: "project",
+        url:"project2.webp",
+        alt:"image1",
+        title: "image sample",
+        description:"this is just a sample"
+    },
+    {
+        id :60,
+        category: "project",
+        url:"project3.webp",
+        alt:"image1",
+        title: "image sample",
+        description:"this is just a sample"
+    },
+    {
+        id :61,
+        category: "project",
+        url:"project4.webp",
+        alt:"image1",
+        title: "image sample",
+        description:"this is just a sample"
+    },
 ]

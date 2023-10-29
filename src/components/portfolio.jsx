@@ -14,18 +14,16 @@ export default function Portfolio() {
     "reflectview",
     "landscapeview",
     "outdoorview",
-    "indoorview"
+    "indoorview",
+    "project"
   ];
-
-
 
   const categoryData1 = (category) =>
     Data.filter((item) => item.category === category);
- 
+
   const card = categoryNames.map((category) =>
     categoryData1(category).map((item) => <Card key={item.id} {...item} />)
   );
-
 
   return (
     <>
@@ -116,6 +114,16 @@ export default function Portfolio() {
               <p>Indoor view of Saint Sebastian Church</p>
               <div className={styles.grid}>{card[9]}</div>
             </div>
+          </div>
+          <div className={styles.boxes}>
+            <h3>Topomap Documentation</h3>
+            <p className={styles["desc-top"]}>
+              A topomap is a map that depicts an area's topography or elevation
+              by utilising contour lines to reflect variations in elevation
+              above sea level. It depicts the physical aspects of the landscape
+              as well as elevation fluctuations.
+            </p>
+            <div className={styles.grid2}>{card[10]}</div>
           </div>
         </div>
       </div>

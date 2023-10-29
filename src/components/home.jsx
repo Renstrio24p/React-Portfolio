@@ -12,7 +12,7 @@ export default function Home() {
     <>
       <div className={styles.home}>
         <div className={styles.box}>
-          <img src="coverphoto.webp" alt="my profile" />
+          <img className={styles.profile} src="coverphoto.webp" alt="my profile" />
         </div>
         <div className={styles.box1}>
           <h1>Hi, I'm Elcito Jr.</h1>

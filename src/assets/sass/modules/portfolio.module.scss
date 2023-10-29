@@ -37,12 +37,13 @@
     div.middle {
       position: absolute;
       display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 50px;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      justify-content: center; /* Center horizontally */
+      align-items: center; /* Center vertically */
+      gap: 5rem;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
 
       h3 {
         font-size: 4vw;
@@ -99,6 +100,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    overflow: hidden;
     img.img {
       width: 100%;
       height: 100%;
@@ -123,6 +125,29 @@
 h3 {
   margin-top: 20px;
 }
+
+.desc-top {
+  margin-top: 1rem;
+}
+
+.grid2 {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-gap: 20px;
+  width: 100%;
+  height: fit-content;
+
+  img {
+    cursor: pointer;
+    &:hover {
+      animation: pulse 3s 0s;
+    }
+  }
+  
+}
+
+
 /* Footer Styles */
 
 @media only screen and (max-width: 1210px) {
@@ -133,7 +158,7 @@ h3 {
         height: 240px;
         top: 0%;
         left: 50%;
-        transform: translate(-50%,50%);
+        transform: translate(-50%, 50%);
         h2 {
           font-size: 30px;
           width: 100%;
@@ -144,12 +169,20 @@ h3 {
   }
 }
 
-@media only screen and (max-width:1074px){
-   .portfolio{
-      .home {
-        .h3 {
-          font-size: 30px;
-        }
+@media screen and (max-width: 1210px) {
+  div.middle {
+    justify-content: flex-end;
+    margin-top: 12rem;
+    color: white;
+  }
+}
+
+@media only screen and (max-width: 1074px) {
+  .portfolio {
+    .home {
+      .h3 {
+        font-size: 30px;
       }
-   }
+    }
+  }
 }
