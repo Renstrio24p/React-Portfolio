@@ -10,7 +10,7 @@
   animation: fadeIn 3s 0.1s;
   padding-bottom: 20px;
 
-  div.box {
+  .box {
     max-width: 95% ;
     height: fit-content;
     color: var(--white);
@@ -105,12 +105,12 @@
 
 @media screen and (max-width: 736px) {
 
-  .home {
-    div.box {
-      width: 100%;
+    .box {
+      width: 50%;
       bottom: 4%;
+      top: -80px;
+      position: absolute;
     }
-  }
 }
 
 

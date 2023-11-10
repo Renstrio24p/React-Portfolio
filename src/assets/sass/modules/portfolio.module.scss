@@ -17,7 +17,7 @@
     position: relative;
     border-bottom-right-radius: 50%;
     div.top {
-      animation: fadeInLeft 3s 0.3s;
+      animation: fadeIn 3s 0s;
       width: 7vw;
       height: 7vw;
       position: absolute;
@@ -156,7 +156,7 @@ h3 {
       div.top {
         width: 240px;
         height: 240px;
-        top: 0%;
+        top: -15%;
         left: 50%;
         transform: translate(-50%, 50%);
         h2 {
