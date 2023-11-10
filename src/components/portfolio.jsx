@@ -15,14 +15,15 @@ export default function Portfolio() {
     "landscapeview",
     "outdoorview",
     "indoorview",
-    "project"
+    "project",
+    "scalemodel",
   ];
 
-  const categoryData1 = (category) =>
-    Data.filter((item) => item.category === category);
+  const categoryData1 = category =>
+    Data.filter(item => item.category === category);
 
-  const card = categoryNames.map((category) =>
-    categoryData1(category).map((item) => <Card key={item.id} {...item} />)
+  const card = categoryNames.map(category =>
+    categoryData1(category).map(item => <Card key={item.id} {...item} />)
   );
 
   return (
@@ -124,6 +125,17 @@ export default function Portfolio() {
               as well as elevation fluctuations.
             </p>
             <div className={styles.grid2}>{card[10]}</div>
+          </div>
+          <div className={styles.boxes}>
+            <h3>Scale Model Replica</h3>
+            <p className={styles["desc-top"]}>
+              A scale model in architecture is a smaller, accurate
+              representation of a building or urban design. It provides a
+              tangible preview of the project's spatial layout and details,
+              aiding in design communication and decision-making among
+              architects, designers, and clients.
+            </p>
+            <div className={styles.grid}>{card[11]}</div>
           </div>
         </div>
       </div>

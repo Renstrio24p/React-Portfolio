@@ -487,4 +487,28 @@ export default [
         title: "image sample",
         description:"this is just a sample"
     },
+    {
+        id :62,
+        category: "scalemodel",
+        url:"scalemodel1.webp",
+        alt:"image1",
+        title: "image sample",
+        description:"this is just a sample"
+    },
+    {
+        id :63,
+        category: "scalemodel",
+        url:"scalemodel2.webp",
+        alt:"image1",
+        title: "image sample",
+        description:"this is just a sample"
+    },
+    {
+        id :64,
+        category: "scalemodel",
+        url:"scalemodel3.webp",
+        alt:"image1",
+        title: "image sample",
+        description:"this is just a sample"
+    },
 ]
