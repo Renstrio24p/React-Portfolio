@@ -11,6 +11,7 @@
     "start": "vite --open"
   },
   "dependencies": {
+    "@vitejs/plugin-react": "^4.1.1",
     "animate.css": "^4.1.1",
     "boxicons": "^2.1.4",
     "loaders.css": "^0.1.2",
